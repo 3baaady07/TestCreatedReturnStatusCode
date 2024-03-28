@@ -34,6 +34,9 @@ public class WeatherForecastController : ControllerBase
     [HttpPost("/test")]
     public IActionResult Test()
     {
+        /// the docs, here, state that the following function invokation 
+        /// returns a status code of <see cref="StatusCodes.Status201Created"/>
+        /// where as in reality it returns a <see cref="StatusCodes.Status204NoContent"/>
         return Created();
     }
 }
