@@ -1,0 +1,6 @@
+@TestCreatedReturnStatusCode_HostAddress = http://localhost:5072
+
+GET {{TestCreatedReturnStatusCode_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
